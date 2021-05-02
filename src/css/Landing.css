@@ -1,0 +1,94 @@
+.landing {
+  object-fit: contain;
+  height: 1100px;
+  position: relative;
+}
+
+.landing-content {
+  position: absolute;
+  background-color: #0e0909a1;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 1600px;
+  height: 1000px;
+}
+
+.landing-title {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 10px;
+}
+
+.landing-flex {
+  display: flex;
+}
+
+.content-left {
+  width: 47%;
+}
+
+.rounded-divider {
+  border-top: 2px solid #4c4c4c7d;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 33px;
+}
+
+.content-right {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movie-languages {
+  color: white;
+  margin-top: 47px;
+  font-size: 32px;
+  margin-left: 99px;
+}
+
+.movie-title-original {
+  color: white;
+  margin-top: 25px;
+  font-size: 35px;
+  margin-left: 99px;
+  margin-right: 68px;
+}
+
+.date-launch {
+  color: white;
+  margin-top: 25px;
+  font-size: 35px;
+  margin-left: 99px;
+  margin-right: 68px;
+}
+
+.movie-rating {
+  color: white;
+  font-size: 36px;
+  margin-left: 35px;
+  font-weight: bolder;
+  margin-top: 43px;
+}
+
+.movie-sinopsis {
+  color: white;
+  margin-top: 50px;
+  margin-left: 35px;
+  font-size: 40px;
+}
+
+.movie-poster {
+  background-image: linear-gradient(90deg, #353434, transparent);
+  width: 50%;
+}
+
+.movie-img {
+  height: 1044px;
+  width: 95%;
+  padding: 20px;
+  margin-left: 37px;
+}

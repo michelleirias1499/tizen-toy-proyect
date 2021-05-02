@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+}
+.App {
+  background-color: #111;
+}
+
+.Row {
+  margin-left: 20px;
+  color: white;
+}
+
+.row-posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 15px;
+}
+
+.row-posters::-webkit-scrollbar {
+  display: none;
+}
+
+.img-posters {
+  object-fit: contain;
+  max-height: 196px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.img-posters:hover {
+  transform: scale(1.08);
+}
+
+.img-postersLarge {
+  max-height: 250px;
+}
+
+.img-postersLarge:hover {
+  transform: scale(1.09);
+}
+
+.movie-item.focused {
+  border: 7px solid whitesmoke;
+}
+
+.landing {
+  object-fit: contain;
+  height: 1100px;
+  position: relative;
+}
+
+.landing-content {
+  position: absolute;
+  background-color: #0e0909a1;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 1600px;
+  height: 1000px;
+}
+
+.landing-title {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 10px;
+}
+
+.landing-flex {
+  display: flex;
+}
+
+.content-left {
+  width: 47%;
+}
+
+.rounded-divider {
+  border-top: 2px solid #4c4c4c7d;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 33px;
+}
+
+.content-right {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movie-languages {
+  color: white;
+  margin-top: 47px;
+  font-size: 32px;
+  margin-left: 99px;
+}
+
+.movie-title-original {
+  color: white;
+  margin-top: 25px;
+  font-size: 35px;
+  margin-left: 99px;
+  margin-right: 68px;
+}
+
+.date-launch {
+  color: white;
+  margin-top: 25px;
+  font-size: 35px;
+  margin-left: 99px;
+  margin-right: 68px;
+}
+
+.movie-rating {
+  color: white;
+  font-size: 36px;
+  margin-left: 35px;
+  font-weight: bolder;
+  margin-top: 43px;
+}
+
+.movie-sinopsis {
+  color: white;
+  margin-top: 50px;
+  margin-left: 35px;
+  font-size: 40px;
+}
+
+.movie-poster {
+  background-image: linear-gradient(90deg, #353434, transparent);
+  width: 50%;
+}
+
+.movie-img {
+  height: 1044px;
+  width: 95%;
+  padding: 20px;
+  margin-left: 37px;
+}
+
+.banner {
+  color: white;
+  object-fit: contain;
+  height: 448px;
+}
+
+.banner-contents {
+  margin-left: 30px;
+  padding-top: 140px;
+  height: 190px;
+}
+
+.banner-title {
+  font-size: 50px;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.banner-description {
+  width: 40rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 24px;
+  max-width: 700px;
+  height: 73px;
+  font-weight: 500;
+}
+
+.rounded-divider {
+  border-top: 2px solid #4c4c4c7d;
+  border-radius: 5px;
+  margin-left: -8px;
+  margin-top: 14px;
+  max-width: 650px;
+}
+
+.banner-rate {
+  font-size: 0.8rem;
+  margin-top: -15px;
+  font-weight: 900;
+}
+
+.banner-fadebottom {
+  height: 10.4rem;
+  margin-left: -35px;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+
+.trending-movies {
+  display: flex;
+}
+.top-rated-movies {
+  display: flex;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
