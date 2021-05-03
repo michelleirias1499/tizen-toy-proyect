@@ -72,7 +72,7 @@ function Player() {
                 <h2 className="movie-rating">
                   Rating: {currentMovie?.movie.vote_average}/10
                 </h2>
-                <hr className="rounded-divider"></hr>
+                <hr className="rounded-divider-left"></hr>
                 <h3 className="movie-sinopsis">
                   Sinopsis: {currentMovie?.movie.overview}
                 </h3>

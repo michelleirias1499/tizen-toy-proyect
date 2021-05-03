@@ -66,7 +66,7 @@ function Row({
     >
       <div className="Row">
         {/* Title of Row */}
-        <h2>{title}</h2>
+        <h2 className="row-title">{title}</h2>
         <div className="row-posters movie-list">{renderMovies()}</div>
       </div>
     </FocusableList>

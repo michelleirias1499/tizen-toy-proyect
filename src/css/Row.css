@@ -29,6 +29,10 @@
   max-height: 250px;
 }
 
+.row-title {
+  margin-top: 7px;
+}
+
 .img-postersLarge:hover {
   transform: scale(1.09);
 }

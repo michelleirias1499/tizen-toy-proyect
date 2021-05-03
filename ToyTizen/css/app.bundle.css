@@ -36,6 +36,10 @@
   max-height: 250px;
 }
 
+.row-title {
+  margin-top: 7px;
+}
+
 .img-postersLarge:hover {
   transform: scale(1.09);
 }
@@ -82,6 +86,14 @@
   border-radius: 5px;
   margin-left: 20px;
   margin-top: 33px;
+}
+
+.rounded-divider-left {
+  border-top: 2px solid #4c4c4c7d;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 14px;
+  max-width: 650px;
 }
 
 .content-right {
@@ -143,12 +155,22 @@
   color: white;
   object-fit: contain;
   height: 448px;
+  position: relative;
 }
 
 .banner-contents {
   margin-left: 30px;
   padding-top: 140px;
   height: 190px;
+}
+
+.banner-box {
+  position: absolute;
+  background-color: #35343480;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .banner-title {
@@ -170,7 +192,7 @@
 .rounded-divider {
   border-top: 2px solid #4c4c4c7d;
   border-radius: 5px;
-  margin-left: -8px;
+  margin-left: 2px;
   margin-top: 14px;
   max-width: 650px;
 }
@@ -182,7 +204,7 @@
 }
 
 .banner-fadebottom {
-  height: 10.4rem;
+  height: 9.4rem;
   margin-left: -35px;
   background-image: linear-gradient(
     180deg,

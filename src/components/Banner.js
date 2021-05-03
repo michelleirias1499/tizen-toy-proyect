@@ -27,18 +27,20 @@ function Banner({ movieBannerdata }) {
         backgroundPosition: 'center center',
       }}
     >
-      <div className="banner-contents">
-        <h1 className="banner-title">
-          {movieBannerdata?.title ||
-            movieBannerdata?.name ||
-            movieBannerdata?.original_name}
-        </h1>
-        <hr className="rounded-divider"></hr>
-        <h1 className="banner-description">
-          {/* {truncate(, 200)} */}
-          {movieBannerdata?.overview}
-        </h1>
-        <div className="banner-fadebottom"></div>
+      <div className="banner-box">
+        <div className="banner-contents">
+          <h1 className="banner-title">
+            {movieBannerdata?.title ||
+              movieBannerdata?.name ||
+              movieBannerdata?.original_name}
+          </h1>
+          <hr className="rounded-divider"></hr>
+          <h1 className="banner-description">
+            {/* {truncate(, 200)} */}
+            {movieBannerdata?.overview}
+          </h1>
+          <div className="banner-fadebottom"></div>
+        </div>
       </div>
     </header>
   );
